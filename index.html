@@ -1,0 +1,1127 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>KAFFEE</title>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Caveat:wght@600&display=swap" rel="stylesheet">
+
+  <style>
+
+/* @import url('https://fonts.googleapis.com/css2? Familie= Baloo+Thambi+2 &family= Caveat:wght@600 & display=swap'); */
+
+  body {
+    font-size: 14pt;
+    font-family: 'Baloo Thambi 2', kursiv;
+    background: white;
+  }
+  figure {
+    margin: 0px auto;
+    padding: 0px 0px 0px 0px;
+  }
+
+
+  article {
+    padding: 0px 15px 0px 15px;
+    box-sizing: border-box;
+  }
+
+  fieldset {
+    padding: 15px;
+    border: 2px red dotted;
+    box-sizing: border-box;
+    margin-top: 10px;
+  }
+
+ article#Text_5 fieldset label {
+    display:inline-block;
+    width: 150px;
+    font-size: 14pt;
+    font-family: 'Baloo Thambi 2', kursiv;
+  }
+  article#Text_5 fieldset textarea {
+     display:inline-block;
+     width: 320px;
+     height: 50px;
+   }
+
+
+  header {
+    grid-area: Kopfbereich;
+    background: #891307;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #logo {
+    width: 150px;
+    height: auto;
+
+  }
+
+  header img#navizeichen {
+    width: 50px;
+    height: auto;
+    margin-left:20px;
+  }
+
+  h1 {
+  font-size: 20pt;
+  font-family: 'Caveat', kursiv;
+  color: #464A00;
+  }
+  h2{
+  font-size: 18pt;
+  font-family:'Caveat', kursiv;
+  color: #891307;
+  }
+  h3{
+  padding:20px;
+  margin-left:40px;
+  color: white;
+  font-family: 'Baloo Thambi 2';
+  margin-right:auto;
+
+  }
+  p{
+    color: #891307;
+   }
+
+
+   figure#Icon_1 {
+      /* margin-top: 65px;
+      margin-left: 130px; */
+      margin: 0px auto;
+   }
+   figure#Icon_2 {
+        margin: 0px auto;
+   }
+   figure#Icon_3 {
+        margin: 0px auto;
+   }
+   figure#Icon_4 {
+        margin: 0px auto;
+   }
+   figure#Icon_5 {
+        margin: 0px auto;
+   }
+   figure#Icon_6 {
+        margin: 0px auto;
+   }
+
+   .IconSize {
+     width: 150px;
+     height: auto;
+   }
+
+   .ImgSizeKl {
+     width: 420px;
+     height: auto;
+   }
+
+   .ImgSizeGr {
+     width: 765px;
+     margin-left: -5px;
+     /* height: auto;
+     margin:auto; */
+   }
+
+   .ImgSizeGrGr {
+     /* width: 1260px; */
+     height: auto;
+   }
+
+  .oben{
+    float: right;
+    margin-top: -20px;
+  }
+
+  #Bild_1{
+    grid-area:Bild_1;
+
+
+  }
+  #Text_1_1{
+    grid-area:Text_1_1;
+    }
+  #Icon_1{
+    grid-area:Icon_1;
+
+  }
+  #Text_1_2{
+    grid-area:Text_1_2;
+  }
+  #Bild_2{
+    grid-area:Bild_2;
+
+  }
+  #Text_2_1{
+    grid-area:Text_2_1;
+  }
+  #Icon_2{
+    grid-area:Icon_2;
+  }
+  #Text_2_2{
+    grid-area:Text_2_2;
+  }
+  #Icon_3{
+    grid-area:Icon_3;
+  }
+  #Text_2_3{
+    grid-area:Text_2_3;
+  }
+  #Bild_3 {
+    grid-area:Bild_3;
+  }
+  #Text_3_1{
+    grid-area:Text_3_1;
+  }
+  #Icon_4{
+    grid-area:Icon_4;
+  }
+  #Text_3_2{
+    grid-area:Text_3_2;
+  }
+  #Bild_4 {
+    grid-area:Bild_4;
+  }
+  #Text_4_1{
+    grid-area:Text_4_1;
+  }
+  #Bild_5 {
+    grid-area:Bild_5;
+  }
+  #Text_4_2{
+    grid-area:Text_4_2;
+  }
+  #Bild_6 {
+    grid-area:Bild_6;
+  }
+  #Text_4_3{
+    grid-area:Text_4_3;
+  }
+  #Bild_7 {
+    grid-area:Bild_7;
+  }
+  #Text_4_4{
+    grid-area:Text_4_4;
+  }
+  #Text_4_5{
+    grid-area:Text_4_5;
+  }
+  #Icon_5{
+    grid-area:Icon_5;
+  }
+  #Bild_8 {
+    grid-area:Bild_8;
+  }
+  #Text_5{
+    grid-area:Text_5;
+  }
+  #Icon_6{
+    grid-area:Icon_6;
+  }
+  #Bild_9 {
+    grid-area:Bild_9;
+  }
+  #Text_6_1{
+    grid-area:Text_6_1;
+  }
+  #Text_6_2{
+    grid-area:Text_6_2;
+  }
+  footer {
+    grid-area: footer;
+    background: #891307;
+  }
+
+
+  div#wrapper {
+  max-width: 420px;
+  height: auto;
+  margin: 0px auto;
+  height: auto;
+
+
+  display: grid;
+  grid-template-rows:150px 265px 270px 160px 740px 265px 455px 170px 800px
+  190px 410px 265px 385px 150px 1640px 265px 390px 265px 400px 265px 400px
+  285px 450px 90px 200px 265px 520px 220px 265px 590px 280px 85px;
+  grid-auto-columns: 420px;
+  grid-row-gap: 5px;
+  grid-template-areas:
+  "Kopfbereich"
+  "Bild_1"
+  "Text_1_1"
+  "Icon_1"
+  "Text_1_2"
+  "Bild_2"
+  "Text_2_1"
+  "Icon_2"
+  "Text_2_2"
+  "Icon_3"
+  "Text_2_3"
+  "Bild_3"
+  "Text_3_1"
+  "Icon_4"
+  "Text_3_2"
+  "Bild_4"
+  "Text_4_1"
+  "Bild_5"
+  "Text_4_2"
+  "Bild_6"
+  "Text_4_3"
+  "Bild_7"
+  "Text_4_4"
+  "Text_4_5"
+  "Icon_5"
+  "Bild_8"
+  "Text_5"
+  "Icon_6"
+  "Bild_9"
+  "Text_6_1"
+  "Text_6_2"
+  "footer";
+}
+
+/* BILDER */
+
+
+
+img#kaffee_gr {
+  display: none;
+}
+
+img#kaffee_grgr {
+  display: none;
+}
+img#bild_2_gr {
+  display: none;
+}
+
+img#bild_2_grgr {
+  display: none;
+}
+img#bild_3_gr {
+  display: none;
+}
+
+img#bild_3_grgr {
+  display: none;
+}
+img#bild_4_gr {
+  display: none;
+}
+
+img#bild_4_grgr {
+  display: none;
+}
+img#bild_5_gr {
+  display: none;
+}
+
+img#bild_5_grgr {
+  display: none;
+}
+img#bild_6_gr {
+  display: none;
+}
+
+img#bild_6_grgr {
+  display: none;
+}
+img#bild_7_gr {
+  display: none;
+}
+
+img#bild_7_grgr {
+  display: none;
+}
+img#bild_8_gr {
+  display: none;
+}
+
+img#bild_8_grgr {
+  display: none;
+}
+img#bild_9_gr {
+  display: none;
+}
+
+img#bild_9_grgr {
+  display: none;
+}
+
+
+/*NAVIGIATION*/
+
+nav input[type=checkbox] {
+  display: none;
+}
+
+ul#menu {
+  display: none;
+  position: absolute;
+  z-index: 10;
+  background: rgba(0,0,0,0.4);
+  list-style-type: none;
+  font-family: Arial, Helvetica, sans-serif;
+  min-width :380px;
+  margin-top: 60px;
+}
+
+ul#menu li {
+  margin-bottom: 12px;
+  background: rgba(0,0,0,0.7);
+  background-color: #891307;
+  padding: 20px;
+  font-family: 'Caveat', kursiv;
+  color: #464A00;
+  margin-left: -43px;
+  text-align: center;
+  border-radius: 24px;
+  border: 1px solid white;
+  font-size: 28pt;
+}
+
+nav input[type=checkbox]:checked ~ ul#menu {
+  display: block;
+}
+
+a:link, a:visited, a:active {
+  color: white;
+  text-decoration: none;
+}
+
+
+ @media screen and (min-width: 768px) {
+
+    div#wrapper {
+    max-width: 768px;
+    grid-template-columns: 384px 384px;
+    grid-template-rows:150px 300px 190px 170px 540px 350px 310px 150px 485px
+    160px 260px 350px 260px 140px 900px 350px 260px 440px 400px 440px 80px
+    170px 540px 170px 315px 315px 85px;
+    grid-column-gap: 5px;
+    grid-template-areas:
+    "Kopfbereich Kopfbereich"
+    "Bild_1 Bild_1"
+    "Text_1_1 Text_1_1"
+    "Icon_1 Icon_1"
+    "Text_1_2 Text_1_2"
+    "Bild_2 Bild_2"
+    "Text_2_1 Text_2_1"
+    "Icon_2 Icon_2"
+    "Text_2_2 Text_2_2"
+    "Icon_3 Icon_3"
+    "Text_2_3 Text_2_3"
+    "Bild_3 Bild_3"
+    "Text_3_1 Text_3_1"
+    "Icon_4 Icon_4"
+    "Text_3_2 Text_3_2"
+    "Bild_4 Bild_4"
+    "Text_4_1 Text_4_1"
+    "Bild_5 Text_4_2"
+    "Bild_6 Text_4_3"
+    "Bild_7 Text_4_4"
+    "Text_4_5 Text_4_5"
+    "Icon_5 Icon_5"
+    "Bild_8 Text_5"
+    "Icon_6 Icon_6"
+    "Text_6_1 Bild_9"
+    "Text_6_1 Text_6_2"
+    "footer footer";
+    }
+    img#kaffee_kl {
+      display: none;
+    }
+    img#kaffee_gr {
+      display: block;
+    }
+
+    img#kaffee_grgr {
+      display: none;
+    }
+
+    img#bild_2_kl {
+      display: none;
+    }
+    img#bild_2_gr {
+      display: block;
+    }
+
+    img#bild_2_grgr {
+      display: none;
+    }
+
+    img#bild_3_kl {
+      display: none;
+    }
+    img#bild_3_gr {
+      display: block;
+    }
+
+    img#bild_3_grgr {
+      display: none;
+    }
+
+    img#bild_4_kl {
+      display: none;
+    }
+    img#bild_4_gr {
+      display: block;
+    }
+
+    img#bild_4_grgr {
+      display: none;
+    }
+    img#bild_5_kl {
+      display: none;
+    }
+    img#bild_5_gr {
+      display: block;
+    }
+
+    img#bild_5_grgr {
+      display: none;
+    }
+    img#bild_6_kl {
+      display: none;
+    }
+    img#bild_6_gr {
+      display: block;
+    }
+
+    img#bild_6_grgr {
+      display: none;
+    }
+    img#bild_7_kl {
+      display: none;
+    }
+    img#bild_7_gr {
+      display: block;
+    }
+
+    img#bild_7_grgr {
+      display: none;
+    }
+    img#bild_8_kl {
+      display: none;
+    }
+    img#bild_8_gr {
+      display: block;
+    }
+
+    img#bild_8_grgr {
+      display: none;
+    }
+    img#bild_9_kl {
+      display: none;
+    }
+    img#bild_9_gr {
+      display: block;
+    }
+
+    img#bild_9_grgr {
+      display: none;
+    }
+
+    figure#Bild_5 img, figure#Bild_6 img, figure#Bild_7 img,
+    figure#Bild_8 img, figure#Bild_9 img {
+      width: 380px;
+      margin-top:25px;
+    }
+
+    ul#menu {
+
+      min-width :720px;
+    }
+
+    footer {
+      width: 768px;
+    }
+
+    }
+
+     @media screen and (min-width: 1920px){
+     div#wrapper {
+
+    max-width: 1920px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:300px 250px 250px 300px 350px 300px 360px 200px
+    300px 300px 500px 250px 250px 380px 420px 100px 350px 480px 400px 85px;
+
+    grid-template-areas:
+    "Kopfbereich Kopfbereich Kopfbereich"
+    "Bild_1 Bild_1 Text_1_1"
+    "Bild_1 Bild_1 Icon_1"
+    "Text_1_2 Text_1_2 Text_1_2"
+    "Bild_2 Bild_2 Text_2_1"
+    "Bild_2 Bild_2 Icon_2"
+    "Text_2_2 Text_2_2 Text_2_3"
+    "Icon_3 Icon_3 Icon_3"
+    "Bild_3 Bild_3 Text_3_1"
+    "Bild_3 Bild_3 Icon_4"
+    "Text_3_2 Text_3_2 Text_3_2"
+    "Bild_4 Bild_4 Text_4_1"
+    "Bild_4 Bild_4 Text_4_1"
+    "Text_4_2 Text_4_3 Text_4_4"
+    "Bild_5 Bild_6 Bild_7"
+    "Text_4_5 Text_4_5 Text_4_5"
+    "Icon_5 Text_6_1 Text_6_2"
+    "Text_5 Text_6_1 Text_6_2"
+    "Bild_9 Icon_6 Bild_8"
+    "footer footer footer";
+    grid-column-gap: 5px;
+    }
+    #logo{
+      padding:0px 850px 30px 0px;
+    }
+    img#kaffee_kl {
+      display: none;
+    }
+    img#kaffee_gr {
+      display: none;
+    }
+    img#kaffee_grgr {
+      display: block;
+    }
+    img#bild_2_gr {
+      display: none;
+    }
+
+    img#bild_2_kl {
+      display: none;
+    }
+
+    img#bild_2_grgr {
+      display: block;
+    }
+    img#bild_3_gr {
+      display: none;
+    }
+
+    img#bild_3_kl {
+      display: none;
+    }
+
+    img#bild_3_grgr {
+      display: block;
+    }
+    img#bild_4_gr {
+      display: none;
+    }
+
+    img#bild_4_kl {
+      display: none;
+    }
+
+    img#bild_4_grgr {
+      display: block;
+    }
+    img#bild_5_gr {
+      display: none;
+    }
+
+    img#bild_5_kl {
+      display: none;
+    }
+
+    img#bild_5_grgr {
+      display: block;
+    }
+    img#bild_6_gr {
+    display: none;
+    }
+
+    img#bild_6_kl {
+    display: none;
+    }
+
+    img#bild_6_grgr {
+    display: block;
+    }
+    img#bild_7_gr {
+    display: none;
+    }
+
+    img#bild_7_kl {
+    display: none;
+    }
+
+    img#bild_7_grgr {
+    display: block;
+    }
+    img#bild_8_gr {
+    display: none;
+    }
+
+    img#bild_8_kl {
+    display: none;
+    }
+
+    img#bild_8_grgr {
+    display: block;
+    }
+    img#bild_9_gr {
+    display: none;
+    }
+
+    img#bild_9_kl {
+    display: none;
+    }
+
+    img#bild_9_grgr {
+    display: block;
+    }
+/* Naigation */
+
+    ul#menu {
+      background: none;
+    }
+
+    ul#menu li {
+    display: inline-block;
+    border: 0px;
+    margin-left: 130px;
+    font-size: 24pt;
+    }
+
+    ul#menu {
+      display: block;
+    }
+
+    nav label {
+      display: none;
+    }
+    figure#Bild_5 img, figure#Bild_6 img, figure#Bild_7 img,
+    figure#Bild_8 img, figure#Bild_9 img {
+      width: 620px;
+      margin-top: -20px;
+    }
+
+    /* header {
+      display: flex;
+      justify-content: space-around;
+    } */
+
+    /* Textspalten*/
+
+    article#Text_1_2,article#Text_2_2,article#Text_3_2{
+      column-count: 3;
+      column-width: 600px;
+      column-gap: 20px;
+    }
+  article#Text_1_2 h1,article#Text_2_2 h1 ,article#Text_3_2 h1 {
+    break-before: column;
+  }
+
+figure#Icon_6,figure#Icon_5{
+  margin-top: 130px;
+  transform: scale(1.5);
+}
+
+  #oben_oben{
+  display: none;
+}
+#oben_big{
+ margin-right: 60px;
+ margin-top: 540px;
+ transform: scale(1.5);
+}
+
+footer {
+  width: 1920px;
+}
+    }
+
+  </style>
+</head>
+<body id="oben">
+
+<div id="wrapper">
+
+  <header>
+
+    <nav>
+     <label for="toggle"><img id="navizeichen" src="img/navizeichen.svg"></label>
+     <input type="checkbox" id="toggle">
+     <ul id="menu">
+       <li><a href="#Text_1_1">Home</a></li>
+       <li><a href="#Text_2_1">Über Uns</a></li>
+       <li><a href="#Text_3_1">Alles über Kaffee</a></li>
+       <li><a href="#Text_4_1">Seminare</a></li>
+       <li><a href="#Text_5">Kontakt</a></li>
+       <li><a href="#Text_6_1">Impressum</a></li>
+     </ul>
+   </nav>
+
+
+    <img id="logo" src="img/logohaupt.svg">
+
+
+  </header>
+
+
+
+  <figure id="Bild_1">
+   <img src="img/bild_1_kl.png" alt="" id="kaffee_kl" class="ImgSizeKl">
+   <img src="img/kaffee_gr.png" alt="" id="kaffee_gr" class="ImgSizeGr">
+   <img src="img/kaffee_grgr.jpg" alt="" id="kaffee_grgr"class="ImgSizeGrGr">
+  </figure>
+
+  <article id="Text_1_1">
+    <h1>GENUSSKAFFEE FÜR ZU HAUSE</h1>
+
+    <p> Die Kaffeerösterei Tourk hat sich dem Rösten von gutem Kaffee verschrieben.
+       Wir arbeiten daran handgemachten Kaffee anzubieten. Fokussiert auf
+       schonend gerösteten Spezialitätenkaffee, mit einem Blick auf Fairness und
+      Nachhaltigkeit im Produktionsprozess.</p>
+
+
+  </article>
+
+  <figure id="Icon_1" >
+   <img src="img/icon_01.png" alt="" class="IconSize">
+  </figure>
+
+  <article id="Text_1_2">
+    <h1>HANDARBEIT</h1>
+<p>Jeder Kaffee wird in liebevoller Handarbeit hergestellt.
+   Die Bohnen werden schonend und langsam im Trommelröstverfahren geröstet,
+    von Hand verpackt und verschickt.
+    Hier gibt es keine Massenware, nur guten Kaffee.</p>
+
+   <h1>NACHHALTIGKEIT</h1>
+<p>Wir sind bedacht darauf, Kaffee aus verantwortungsvollen Quellen,
+ mit fairer Bezahlung der Arbeiter, mit umweltschonenden Mitteln zu beziehen und
+diesen möglichst nachhaltig weiter zu verarbeiten. Die Umwelt und der Mensch
+liegen uns am Herzen.</p>
+
+    <h1>GENUSS</h1>
+  <p>Im Mittelpunkt der Arbeit steht immer der Genuss.
+ Dieser entsteht sowohl durch den guten Geschmack,
+  die schonende Art der Röstung und das Wissen,
+   einen im Einklang mit Mensch und
+    Natur produzierten Kaffee zu genießen.</p>
+  <a href="#oben"><img src="img/bild_oben.png" class="oben"></a>
+  </article>
+
+  <figure id="Bild_2">
+  <img src="img/bild_2_kl.png" alt="" id="bild_2_kl"class="ImgSizeKl">
+  <img src="img/bild_2_gr.png" alt="" id="bild_2_gr"class="ImgSizeGr">
+  <img src="img/bild_2_grgr.png" alt="" id="bild_2_grgr"class="ImgSizeGrGr">
+  </figure>
+
+  <article id="Text_2_1">
+    <h2>Über Uns:</h2>
+
+<h1>DIE WERTE</h1>
+<p>Die Kaffeerösterei Tourk trinkt gerne guten Kaffee und daher steht an
+   oberster Stelle der Genuss. Was das bedeutet, können Sie unten genauer erfahren.
+Die Kaffeerösterei Tourk vertritt die feste Meinung,
+ dass beim Kaffeetrinken der Genuss im Mittelpunkt stehen sollte.
+  Hierfür spielen viele Faktoren eine Rolle.
+   Nicht nur der Geschmack entscheidet über Genussmomente.
+  Um entspannt den Kaffee zu genießen sind auch die Hintergründe für sie entscheidend.</p>
+
+  </article>
+
+  <figure id="Icon_2">
+  <img src="img/icon_02.png" alt=""class="IconSize">
+
+  </figure>
+
+  <article id="Text_2_2">
+    <h1>FAIRNESS</h1>
+<p>Um richtig genießen zu können, möchte Die Kaffeerösterei Tourk wissen,
+ dass alle hinter dem Kaffee fair behandelt werden.
+Leider ist der Kaffeepreis in den letzten Jahren soweit abgesunken,
+ dass viele Arbeiter und Farmer nicht mehr nur vom Kaffee leben können.
+  Das ist eine tragische Entwicklung. Um dem entgegen zu wirken,
+  sind wir immer auf der Suche nach Kooperativen und direkten Kontakten zu Farmern.</p>
+
+<h1>NACHHALTIGKEIT</h1>
+<p>Die Kaffeerösterei Tourk ist sich bewusst, dass es nur diese eine Erde gibt,
+ auf der Kaffee pflanzen wachsen. Und um diese zu erhalten,
+  sind wir bemüht möglichst nachhaltig zu arbeiten.
+   Von den umweltschonender hergestellten Tüten ohne Aluminium bis hin zur Druckfarbe
+    aus umweltfreundlichen Pflanzenölen ist schon jetzt alles möglichst natürlich gehalten.
+Wir sind stets auf der Suche nach Innovationen, die es ermöglichen,
+ alles rund um den Kaffeegenuss noch nachhaltiger zu gestalten.</p>
+
+  </article>
+
+  <figure id="Icon_3">
+     <img src="img/icon_03.png" alt=""class="IconSize">
+  </figure>
+
+  <article id="Text_2_3">
+    <h1>TRANSPARENZ</h1>
+  <p>Um Kunden einen guten Überblick über die eigene Arbeit zu geben,
+   möchte die Kaffeerösterei Tourk möglichst transparent sein.
+    Transparenz gilt sowohl nach innen im Team als auch nach außen.
+     Es ist bemüht möglichst offen die Wertschöpfungskette, wo der Kaffee herkommt,
+      wie er verarbeitet wird, welche Materialien im Prozess verwendet werden und
+       wer die Partner sind, darzustellen.
+        Für weitere Fragen dazu hat sie immer ein offenes Ohr.</p>
+    <a href="#oben"><img src="img/bild_oben.png" class="oben"></a>
+
+  </article>
+
+  <figure id="Bild_3">
+    <img src="img/bild_3_kl.png" alt="" id="bild_3_kl"class="ImgSizeKl">
+    <img src="img/bild_3_gr.png" alt="" id="bild_3_gr"class="ImgSizeGr">
+    <img src="img/bild_3_grgr.png" alt="" id="bild_3_grgr"class="ImgSizeGrGr">
+  </figure>
+
+  <article id="Text_3_1">
+    <h2>Alles über Kaffee:</h2>
+
+  <h1>HERKUNFT</h1>
+  <p>Vom Anbau bis zu deiner Tasse ist es ein weiter Weg Kaffee ist nicht
+   nur dein Begleiter, sondern die Lebensgrundlage hunderttausender Menschen weltweit.
+    Deshalb reisen wir jedes Jahr in die Ursprungsländer unserer Kaffees.
+     Wir wollen mit eigenen Augen sehen, wo der Kaffee wächst und die Menschen kennenlernen,
+      die ihn anbauen.</p>
+
+  </article>
+
+  <figure id="Icon_4">
+   <img src="img/icon_04.png" alt=""class="IconSize">
+  </figure>
+
+  <article id="Text_3_2">
+    <h1>ANBAU</h1>
+ <p>Die besten Kaffee-Anbaubedingungen erstrecken sich über den gesamten
+  Äquator – im sogenannten Kaffeegürtel. Bei Anbau und Ernte liegt in Sorgfalt
+   und Timing das Geheimnis. In diesem Artikel fassen wir zusammen, unter welchen
+   Bedingungen Kaffee am besten wächst und worauf es bei Ernte und Aufbereitung ankommt.
+
+Beim Anbau von Kaffee findet sich Parallelen zum Wein.
+ Die Zusammensetzung des Bodens sowie die Sonnen- und Niederschlagsmenge während der
+  Reifezeit wirken sich stark auf den Kaffeegeschmack aus. Die sensiblen Kaffeepflanzen benötigen
+   das ganze Jahr über, tags wie nachts, ein ausgeglichenes Klima ohne extreme Hitze und Kälte
+    sowie ausreichend Niederschlag und viel Schatten.
+Die Bodenqualität spielt eine große Rolle, denn die Kaffeepflanze benötigt einen nährstoffreichen Boden.
+ Dieser hat im Idealfall einen pH-Wert zwischen 5 und 6, ist also leicht sauer. Insbesondere die in Äthiopien
+  sehr häufigen vulkanischen Böden haben diese Eigenschaft und sind darüber hinaus sehr nährstoffreich.
+   Wie beim Wein spricht man bei der Bodenbeschaffenheit vom Terroir.
+Kaffeesträucher werden bis zu 3,5 Meter groß und kommen in wilder Form nur noch in Äthiopien vor.
+ Die Sträucher tragen Früchte, die wir Kaffeekirschen nennen. Kaffeebohnen sind die Samen dieser Kirschen.
+  Anders als bei hiesigen Kirschen besteht der Kern aus zwei Teilen bzw. zwei Kaffeebohnen.
+
+<h1>ERNTE</h1>
+<p>Die Reifezeit der Kaffeekirschen beträgt bei unseren äthiopischen Hochlandkaffees
+ bis zu zehn Monate. Im Laufe der Zeit ändern die Kirschen ihre Farbe von grün über gelb zu rot.
+  Erst wenn sie rot sind, bilden die Kirschen die Grundlage für aromatischen
+   Rohkaffee und werden geerntet.
+Während der Ernte dürfen nur die roten Kirschen gepflückt werden.
+ Das Fruchtfleisch der Kaffeekirschen in diesem Zustand schmeckt fruchtig und leicht süßlich.
+  Weder grüne, noch überreife schwarze Kirschen dürfen geerntet werden.
+   Denn beides würde den Geschmack des Kaffees sehr stark und negativ beeinträchtigen.
+    Wie unreife Trauben beinhalten grüne Kirschen nur unausgereifte Säuren und wenig
+     aromatischen Kaffeegeschmack. Überreife Kirschen hingegen schmecken faulig und fermentiert.</p>
+  <a href="#oben"><img src="img/bild_oben.png" class="oben"></a>
+  </article>
+
+  <figure id="Bild_4">
+  <img src="img/bild_4_kl.png" alt="" id="bild_4_kl"class="ImgSizeKl">
+  <img src="img/bild_4_gr.png" alt="" id="bild_4_gr"class="ImgSizeGr">
+  <img src="img/bild_4_grgr.png" alt="" id="bild_4_grgr"class="ImgSizeGrGr">
+  </figure>
+
+  <article id="Text_4_1">
+    <h2>Seminare</h2>
+
+<h1>Von Aroma bis Zubereitung: Unsere Kaffee-Seminare für Sie!</h1>
+<p>Wussten Sie schon, dass die belebende Wirkung des Kaffees einst ein
+ äthiopischer Ziegenhirte entdeckt haben soll, als seine Herde auch nachts
+  putzmunter blieb, nachdem sie Beeren einer ungewöhnlichen Pflanze
+   gefressen hatte? Diese und weitere spannende Details
+    rund um den Kaffee-Genuss erfahren Sie bei uns:</p>
+
+  </article>
+
+  <figure id="Bild_5">
+  <img src="img/bild_5_kl.png" alt="" id="bild_5_kl"class="ImgSizeKl">
+  <img src="img/bild_5_gr.png" alt="" id="bild_5_gr"class="ImgSizeGr">
+  <img src="img/bild_5_grgr.png" alt="" id="bild_5_grgr"class="ImgSizeGrGr">
+  </figure>
+
+  <article id="Text_4_2">
+<h1>Röstung: Das Ein und Alles</h1>
+<p>Immer montags*<br>
+Sie erleben sämtliche Schritte von der grünen bis zur gerösteten Bohne und
+erfahren etwas über die Vorzüge der einzelnen Kaffeesorten.
+Wir laden Sie ein zur Verkostung und schulen Ihre Sinne:
+So können Sie Ihren Trinkgenuss steigern und Familie und Freunde überraschen.</p>
+Termin: Montag, 18.30 bis 21 Uhr
+<br>Preis: 	50,– €
+
+  </article>
+
+  <figure id="Bild_6">
+  <img src="img/bild_6_kl.png" alt="" id="bild_6_kl"class="ImgSizeKl">
+  <img src="img/bild_6_gr.png" alt="" id="bild_6_gr"class="ImgSizeGr">
+  <img src="img/bild_6_grgr.png" alt="" id="bild_6_grgr"class="ImgSizeGrGr">
+  </figure>
+
+  <article id="Text_4_3">
+  <h1>Brühkaffee: Da steckt mehr drin</h1>
+  <p>Immer mittwochs*<br>
+  Sie werden sich wundern, welche aromatische Vielfalt mit dieser altbekannten
+  Zubereitungsart möglich ist. Wir zeigen Ihnen verschiedene Brühmethoden
+  und Sie kosten das Ergebnis.
+  Sie probieren selbst Ihre Lieblingsmethode aus und perfektionieren sie.</p>
+  Termin:	Mittwoch, 18.30 bis 21 Uhr
+  <br>Preis: 	45,– €
+
+  </article>
+
+  <figure id="Bild_7">
+  <img src="img/bild_7_kl.png" alt="" id="bild_7_kl"class="ImgSizeKl"  >
+  <img src="img/bild_7_gr.png" alt="" id="bild_7_gr"class="ImgSizeGr">
+  <img src="img/bild_7_grgr.png" alt="" id="bild_7_grgr"class="ImgSizeGrGr">
+  </figure>
+
+  <article id="Text_4_4">
+  <h1>Aufgeschäumt: Das lässt sich sehen</h1>
+  <p>Immer freitags*</p>
+
+  <p>Sie erfahren, wie der Cappuccino zu seiner perfekten Haube kommt.
+   Sie üben das Schäumen und lernen, wie sich der Milchschaum zu verschiedenen
+    Motiven formen lässt. Wir verraten Ihnen weitere Tricks,
+     wie auch zuhause eine Tasse Kaffee zum Augenschmaus wird.</p>
+  Termin: 	Freitag, 18.30 bis 21 Uhr
+  <br>Preis: 	55,– €
+  <br>
+  <br>
+  <a href="#oben"><img src="img/bild_oben.png" class="oben"></a>
+  </article>
+
+  <article id="Text_4_5">
+    <p>* Bitte beachten Sie: An Feiertagen finden keine Kaffee-Seminare statt.</p>
+
+  </article>
+
+  <figure id="Icon_5">
+  <img src="img/icon_05.png" alt=""class="IconSize">
+  </figure>
+
+  <figure id="Bild_8">
+  <img src="img/bild_8_kl.png" alt="" id="bild_8_kl"class="ImgSizeKl" >
+  <img src="img/bild_8_gr.png" alt="" id="bild_8_gr"class="ImgSizeGr">
+  <img src="img/bild_8_grgr.png" alt="" id="bild_8_grgr"class="ImgSizeGrGr">
+  </figure>
+
+<article id="Text_5">
+
+    <h1>Kontakt</h1>
+
+<p>Sie möchten mehr über uns wissen oder es gibt Fragen?
+ Dann schreiben Sie uns doch:</p>
+ <form method="post" action="#">
+
+ <fieldset>
+   <label for="anrede">Anrede:</label>
+   <select name="Anrede" id="anrede">
+     <option name="...">(Bitte Auswählen)</option>
+     <option name="Frau">Frau</option>
+     <option name="Herr">Herr</option>
+     <option name="Divers">Divers</option>
+   </select>
+   <br>
+   <label for="vorname">Vorname*:</label>
+   <input type="text" name="Vorname" id="vorname"
+    maxlength="250" required>
+
+   <br>
+   <label for="nachname">Nachnname*:</label>
+   <input type="text" name="Nachname" id="nachname"
+    maxlength="250" required>
+
+   <br>
+   <label for="telefonnummer">Telefonnummer*:</label>
+   <input type="tel" name="Telefonnummer" size="20">
+
+   <br>
+   <label for="mail">Email*:</label>
+   <input type="email" name="Mail" id="mail" required>
+
+   <br>
+   <label for="mitteilung">Mitteilung:</label>
+
+   <textarea name="Mitteilung" placeholder="Hier können Sie
+    eine Nachricht hinterlassen"
+    maxlength="255"></textarea>
+    <br>
+    <button> Senden </button>
+
+    <br>
+ </fieldset>
+
+ </form>
+Es gilt die Datenschutzerklärung.
+<br>
+<br>
+<a href="#oben"><img src="img/bild_oben.png" id="oben_oben" class="oben"></a>
+
+  </article>
+
+  <figure id="Icon_6">
+   <img src="img/icon_06.png" alt="" class="IconSize">
+  </figure>
+
+  <figure id="Bild_9">
+    <img src="img/bild_9_kl.png" alt="" id="bild_9_kl"class="ImgSizeKl">
+    <img src="img/bild_9_gr.png" alt="" id="bild_9_gr"class="ImgSizeGr">
+    <img src="img/bild_9_grgr.png" alt="" id="bild_9_grgr"class="ImgSizeGrGr">
+  </figure>
+
+  <article id="Text_6_1">
+    <h1>IMPRESSUM</h1>
+<br>Kaffeerösterei Tourk GbR
+<br>
+<br>Vertretungsberechtigte Gesellschafter: Hendrik Tourk, Sabine Wittenauer<br>
+<br>
+Lindenallee 47
+<br>
+13156 Berlin
+<br>
+Deutschland
+<br>
+<br>
+Telefon: 0173 23718138
+<br>
+Mail: post@kaffee-tourk.de
+<br>
+<br>
+Verantwortlich gemäß § 18 MStV:
+Hendrik Tourk
+<br>
+Lindenallee 47
+13156 Berlin
+
+  </article>
+
+
+  <article id="Text_6_2">
+  <p>Die Europäische Kommission stellt eine Plattform zur
+   Online-Streitbeilegung (OS) bereit, die Sie hier finden: https://ec.europa.eu/consumers/odr/.
+  Zur Teilnahme an einem Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle sind
+   wir nicht verpflichtet und nicht bereit.</p>
+   <a href="#oben"><img src="img/bild_oben.png"id="oben_big"class="oben"></a>
+ </article>g
+
+  <footer>
+    <h3>copyright © Kaffeerösterei Tourk</h3>
+  </footer>
+
+
+    </div>
+  </body>
+</html>
